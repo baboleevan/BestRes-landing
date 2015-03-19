@@ -142,7 +142,8 @@ header {
       header h2 {
         font-size: 2em; } }
   header span {
-    color: rgba(255, 255, 255, 0.35); }
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 0.85em; }
 
 span {
   display: block;
@@ -161,6 +162,7 @@ span {
   margin: 0 auto;
   display: block;
   position: relative;
+  top: 4px;
   width: 736px;
   height: 432px; }
   @media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 109dpi) {
@@ -510,6 +512,7 @@ footer {
     position: relative;
     margin-top: 1.5em;
     font-size: 0.75em;
+    font-weight: 700;
     opacity: 0.8; }
 
 body.dark {

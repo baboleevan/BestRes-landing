@@ -163,6 +163,7 @@ header {
 
     span {
       color: rgba(255,255,255,0.35);
+      font-size: 0.85em;
     }
 }
 
@@ -189,6 +190,7 @@ span {
   margin: 0 auto;
   display: block;
   position: relative;
+  top: 4px;
   width: 736px;
   height: 432px;
   @media (max-width: 767px) {
@@ -500,6 +502,7 @@ footer {
       position: relative;
       margin-top: $space-medium;
       font-size: 0.75em;
+      font-weight: 700;
       opacity: 0.8;
     }
 }
